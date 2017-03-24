@@ -3,8 +3,17 @@
     "displayName": "vscode-react-templates",
     "description": "VS Code Language Support for React Templates",
     "version": "0.0.1",
-    "publisher": "Kevin Kozee",
+    "publisher": "kkozee",
     "icon": "logo-rt.svg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kkozee/vscode-react-templates"
+    },
+    "keywords": [
+        "react",
+        "react templates"
+    ],
+    "author": "kkozee",
     "engines": {
         "vscode": "^1.10.0"
     },
