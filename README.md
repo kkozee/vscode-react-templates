@@ -1,3 +1,3 @@
-# vscode-react-templates README
+# VS Code React Templates
 
 Detailed README coming soon!
