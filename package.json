@@ -1,0 +1,31 @@
+{
+    "name": "vscode-react-templates",
+    "displayName": "vscode-react-templates",
+    "description": "VS Code Language Support for React Templates",
+    "version": "0.0.1",
+    "publisher": "Kevin Kozee",
+    "icon": "logo-rt.svg",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "reacttemplates",
+            "aliases": ["React Templates", "reacttemplates"],
+            "extensions": [".rt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "reacttemplates",
+            "scopeName": "source.rt",
+            "path": "./syntaxes/reacttemplates.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "reacttemplates",
+            "path": "./snippets/reacttemplates.json"
+        }]
+    }
+}
